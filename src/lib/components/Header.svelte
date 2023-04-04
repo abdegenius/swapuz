@@ -1,0 +1,62 @@
+<script>
+	let menu;
+	$: menu = false;
+</script>
+
+<header>
+	<div class="flex pt-6 flex-row justify-between items-center w-full">
+		<div class="w-2/12 md:hidden flex justify-start items-start">
+			<div
+				on:click|preventDefault={() => (menu = true)}
+				class="inline-flex text-center px-2 py-1 bg-zinc-800 rounded-md"
+			>
+				<i class="fas fa-1x text-2xl fa-bars text-green-600" />
+			</div>
+		</div>
+		<div class="w-8/12 md:w-3/12 xl:w-2/12 flex justify-center md:justify-start">
+			<h1 class="text-white text-2xl font-black">LOGO</h1>
+		</div>
+		<div
+			class="hidden max-w-none md:w-6/12 xl:w-8/12 md:flex justify-center items-center md:space-x-4 lg:space-x-8 xl:space-x-12"
+		>
+			<!-- <a class="text-sm xl:text-lg font-bold text-white" href="#">Home</a> -->
+			<a class="text-sm xl:text-lg font-bold text-white" href="about-us">About</a>
+			<a class="text-sm xl:text-lg font-bold text-white" href="contact-us">Contact</a>
+			<a class="text-sm xl:text-lg font-bold text-white" href="login">Log In</a>
+		</div>
+		<div class="w-2/12 md:w-3/12 xl:w-2/12 flex justify-end items-center">
+			<div class="inline-flex justify-between items-center space-x-4">
+				<img src="/flag.png" alt="naija flag" class="w-6 h-4" />
+				<span class="hidden md:block text-green-600 text-md font-bold">Nigeria</span>
+				<span class="block md:hidden text-white text-md font-bold">NG</span>
+			</div>
+		</div>
+	</div>
+</header>
+<div
+	class="{menu
+		? 'block'
+		: 'hidden'} fixed top-0 left-0 inset-0 w-screen min-h-screen z-50 bg-zinc-900 md:hidden"
+>
+	<div class="flex justify-between items-center px-4">
+		<div class="w-fit flex justify-start items-center space-x-4 bg-zinc-800 px-4 py-2 rounded-md">
+			<div class="inline-flex justify-between items-center space-x-4">
+				<img src="/flag.png" alt="naija flag" class="w-6 h-4" />
+				<span class="text-green-600 text-md font-bold">Nigeria</span>
+			</div>
+		</div>
+		<div
+			on:click|preventDefault={() => (menu = false)}
+			class="w-fit flex justify-end items-center space-x-4 bg-zinc-800 px-4 py-1 rounded-md"
+		>
+			<i class="fas fa-1x text-2xl fa-times text-green-600" />
+		</div>
+	</div>
+
+	<div class="flex flex-col mx-auto space-y-6 justify-center items-center inset-y-0 absolute inset-x-0">
+		<!-- <a class="text-xl font-bold text-white" href="#">Home</a> -->
+		<a class="text-xl font-bold text-white" href="about-us">About</a>
+		<a class="text-xl font-bold text-white" href="contact-us">Contact</a>
+		<a class="text-xl font-bold text-white" href="login">Log In</a>
+	</div>
+</div>
