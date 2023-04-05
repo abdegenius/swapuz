@@ -1,4 +1,6 @@
 <script>
+	import { goto } from '$app/navigation';
+
 	let menu;
 	$: menu = false;
 </script>
@@ -19,16 +21,40 @@
 		<div
 			class="hidden max-w-none md:w-2/4 lg:w-3/5 xl:w-4/6 md:flex justify-center items-center md:space-x-4 lg:space-x-8 xl:space-x-12"
 		>
-			<a class="text-sm xl:text-md font-bold text-white" href="#">Home</a>
-			<a class="text-sm xl:text-md font-bold text-white" href="about-us">About</a>
-			<a class="text-sm xl:text-md font-bold text-white" href="contact-us">Contact</a>
-			<a class="text-sm xl:text-md font-bold text-white" href="login">Log In</a>
+			<span
+				class="text-sm xl:text-md font-bold text-white cursor-pointer"
+				on:click={() => {
+					menu = false;
+					goto('/');
+				}}>Home</span
+			>
+			<span
+				class="text-sm xl:text-md font-bold text-white cursor-pointer"
+				on:click={() => {
+					menu = false;
+					goto('/about-us');
+				}}>About</span
+			>
+			<span
+				class="text-sm xl:text-md font-bold text-white cursor-pointer"
+				on:click={() => {
+					menu = false;
+					goto('/contact-us');
+				}}>Contact</span
+			>
+			<span
+				class="text-sm xl:text-md font-bold text-white cursor-pointer"
+				on:click={() => {
+					menu = false;
+					goto('/login');
+				}}>Log In</span
+			>
 		</div>
 		<div class="w-1/5 md:w-1/4 lg:w-1/5 xl:w-1/6 flex justify-end items-center">
 			<div class="inline-flex justify-between items-center space-x-4">
 				<img src="/flag.png" alt="naija flag" class="w-6 h-4" />
 				<span class="hidden md:block text-green-600 text-sm font-bold">Nigeria</span>
-				<span class="block md:hidden text-white text-sm font-bold">NG</span>
+				<span class="block md:hidden text-white cursor-pointer text-sm font-bold">NG</span>
 			</div>
 		</div>
 	</div>
@@ -53,10 +79,36 @@
 		</div>
 	</div>
 
-	<div class="flex flex-col mx-auto space-y-6 justify-center items-center inset-y-0 absolute inset-x-0">
-		<a class="text-xl font-bold text-white" href="#">Home</a>
-		<a class="text-xl font-bold text-white" href="about-us">About</a>
-		<a class="text-xl font-bold text-white" href="contact-us">Contact</a>
-		<a class="text-xl font-bold text-white" href="login">Log In</a>
+	<div
+		class="flex flex-col mx-auto space-y-6 justify-center items-center inset-y-0 absolute inset-x-0"
+	>
+		<span
+			class="text-lg font-bold text-white cursor-pointer"
+			on:click={() => {
+				menu = false;
+				goto('/');
+			}}>Home</span
+		>
+		<span
+			class="text-lg font-bold text-white cursor-pointer"
+			on:click={() => {
+				menu = false;
+				goto('/about-us');
+			}}>About</span
+		>
+		<span
+			class="text-lg font-bold text-white cursor-pointer"
+			on:click={() => {
+				menu = false;
+				goto('/contact-us');
+			}}>Contact</span
+		>
+		<span
+			class="text-lg font-bold text-white cursor-pointer"
+			on:click={() => {
+				menu = false;
+				goto('/login');
+			}}>Log In</span
+		>
 	</div>
 </div>

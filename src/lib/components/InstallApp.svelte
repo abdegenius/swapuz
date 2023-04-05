@@ -8,7 +8,7 @@
 		<h1 class="text-3xl text-center md:text-left md:text-4xl lg:text-6xl font-black text-white">
 			Install all new Swapuz <span class="text-green-600">app</span>
 		</h1>
-		<h3 class="text-md text-center md:text-justify md:text-lg lg:text-xl text-zinc-300 font-normal pb-16">
+		<h3 class="text-md text-center md:text-justify md:text-lg lg:text-xl text-zinc-300 font-normal pb-6">
 			Safely, anonymously and fast crypto <br />
 			swaps with 24/7 support
 		</h3>
@@ -18,7 +18,7 @@
 		</div>
 	</div>
 	<div
-		class="w-80 h-96 flex justify-center md:justify-center items-center md:items-center radial-orange-bg"
+		class="w-80 h-96 flex justify-center md:justify-center items-center md:items-center radial-orange-bg pt-12 md:pt-0"
 	>
 		<img src="/hero.png" alt="hero" class="w-80 h-96" />
 	</div>

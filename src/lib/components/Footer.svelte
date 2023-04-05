@@ -1,4 +1,4 @@
-<div class="w-full mt-24 bg-zinc-800 rounded-t-[30px] py-16">
+<div class="w-full mt-24 bg-zinc-800 rounded-t-[30px] pt-12">
 	<div class="mx-auto px-8 sm:px-32 lg:px-12 max-w-6xl">
 		<div class="flex flex-col lg:flex-row justify-start lg:justify-between items-start space-y-4">
 			<div
@@ -64,9 +64,9 @@
 		</div>
 
 		<div
-			class="flex flex-col lg:flex-row justify-center lg:justify-start items-center space-x-4 text-sm py-6"
+			class="flex flex-col lg:flex-row justify-center lg:justify-start items-center space-x-4 text-sm py-2"
 		>
-			<div class="mb-8">
+			<div class="mb-4">
 				<span class="text-zinc-500">Copyright © 2020 - 2023 Swapuz!</span>
 			</div>
 			<div class="mb-8 flex justify-between items-center space-x-4">

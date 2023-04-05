@@ -2,12 +2,12 @@
 	class="py-8 flex flex-col md:flex-row justify-center md:justify-between items-center md:items-center space-y-8 md:space-x-4 w-full"
 >
 	<div class="w-max">
-		<h1 class="text-2xl text-center md:text-left md:text-4xl lg:text-5xl xl:text-6xl font-black text-white mb-4">
+		<h1 class="text-3xl text-center md:text-left md:text-4xl lg:text-5xl xl:text-6xl font-black text-white mb-4">
 			Simple <br />
 			exchange <span class="text-green-600 font-medium">5000+</span><br />
 			cryptocurrencies
 		</h1>
-		<h3 class="text-sm text-center md:text-justify md:text-md text-zinc-300 font-normal mb-4">
+		<h3 class="text-sm text-center md:text-justify md:text-md text-zinc-300 font-normal m-0 md:mb-4">
 			Safely, anonymously and with no limits<br>
             Fast crypto swaps with Web3 connection
 		</h3>
