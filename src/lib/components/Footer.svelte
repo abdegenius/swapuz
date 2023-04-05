@@ -1,4 +1,4 @@
-<div class="w-full mt-24 bg-zinc-800 rounded-t-[30px] pt-12">
+<div class="w-full mt-12 bg-zinc-800 rounded-t-[30px] pt-12">
 	<div class="mx-auto px-8 sm:px-32 lg:px-12 max-w-6xl">
 		<div class="flex flex-col lg:flex-row justify-start lg:justify-between items-start space-y-4">
 			<div
