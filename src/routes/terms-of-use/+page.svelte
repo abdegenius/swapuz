@@ -2,7 +2,7 @@
 </script>
 
 <div class="mx-auto bg-yellow-50 rounded-2xl w-full my-12 py-8 px-4">
-	<h1 class="text-4xl xl:text-6xl text-zinc-900 text-center font-black mb-6">Privacy Policy</h1>
+	<h1 class="text-4xl xl:text-6xl text-zinc-900 text-center font-black mb-6">Terms of Use</h1>
 	<p class="text-lg text-zinc-400 font-normal text-center">Update: 23.06.2022</p>
 
 	<div class="px-0 md:px-4 lg:px-12">

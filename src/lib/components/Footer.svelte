@@ -25,7 +25,7 @@
 						</div>
 						<div class="flex flex-col justify-start items-start space-y-2">
 							<div class="text-gray-400 font-normal">Support</div>
-							<a href="#" class="text-white font-bold">How To Use</a>
+							<a href="how-to-use" class="text-white font-bold">How To Use</a>
 							<a href="#" class="text-white font-bold">FAQ</a>
 						</div>
 					</div>
