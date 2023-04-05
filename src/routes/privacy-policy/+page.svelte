@@ -1,6 +1,4 @@
 <script>
-	import InstallApp from "$lib/components/InstallApp.svelte";
-
 </script>
 
 <div class="flex py-4 flex-col justify-center items-center space-y-6">
@@ -175,6 +173,4 @@
 			</div>
 		</div>
 	</div>
-
-	<InstallApp />
 </div>
