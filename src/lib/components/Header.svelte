@@ -5,7 +5,7 @@
 
 <header>
 	<div class="flex pt-6 flex-row justify-between items-center w-full">
-		<div class="w-2/12 md:hidden flex justify-start items-start">
+		<div class="w-1/5 md:hidden flex justify-start items-start">
 			<div
 				on:click|preventDefault={() => (menu = true)}
 				class="inline-flex text-center px-2 py-1 bg-zinc-800 rounded-md"
@@ -13,22 +13,22 @@
 				<i class="fas fa-1x text-2xl fa-bars text-green-600" />
 			</div>
 		</div>
-		<div class="w-8/12 md:w-3/12 xl:w-2/12 flex justify-center md:justify-start">
+		<div class="w-3/5 md:w-1/4 lg:w-1/5 xl:w-1/6 flex justify-center md:justify-start">
 			<h1 class="text-white text-2xl font-black">LOGO</h1>
 		</div>
 		<div
-			class="hidden max-w-none md:w-6/12 xl:w-8/12 md:flex justify-center items-center md:space-x-4 lg:space-x-8 xl:space-x-12"
+			class="hidden max-w-none md:w-2/4 lg:w-3/5 xl:w-4/6 md:flex justify-center items-center md:space-x-4 lg:space-x-8 xl:space-x-12"
 		>
-			<!-- <a class="text-sm xl:text-lg font-bold text-white" href="#">Home</a> -->
-			<a class="text-sm xl:text-lg font-bold text-white" href="about-us">About</a>
-			<a class="text-sm xl:text-lg font-bold text-white" href="contact-us">Contact</a>
-			<a class="text-sm xl:text-lg font-bold text-white" href="login">Log In</a>
+			<a class="text-sm xl:text-md font-bold text-white" href="#">Home</a>
+			<a class="text-sm xl:text-md font-bold text-white" href="about-us">About</a>
+			<a class="text-sm xl:text-md font-bold text-white" href="contact-us">Contact</a>
+			<a class="text-sm xl:text-md font-bold text-white" href="login">Log In</a>
 		</div>
-		<div class="w-2/12 md:w-3/12 xl:w-2/12 flex justify-end items-center">
+		<div class="w-1/5 md:w-1/4 lg:w-1/5 xl:w-1/6 flex justify-end items-center">
 			<div class="inline-flex justify-between items-center space-x-4">
 				<img src="/flag.png" alt="naija flag" class="w-6 h-4" />
-				<span class="hidden md:block text-green-600 text-md font-bold">Nigeria</span>
-				<span class="block md:hidden text-white text-md font-bold">NG</span>
+				<span class="hidden md:block text-green-600 text-sm font-bold">Nigeria</span>
+				<span class="block md:hidden text-white text-sm font-bold">NG</span>
 			</div>
 		</div>
 	</div>
@@ -54,7 +54,7 @@
 	</div>
 
 	<div class="flex flex-col mx-auto space-y-6 justify-center items-center inset-y-0 absolute inset-x-0">
-		<!-- <a class="text-xl font-bold text-white" href="#">Home</a> -->
+		<a class="text-xl font-bold text-white" href="#">Home</a>
 		<a class="text-xl font-bold text-white" href="about-us">About</a>
 		<a class="text-xl font-bold text-white" href="contact-us">Contact</a>
 		<a class="text-xl font-bold text-white" href="login">Log In</a>

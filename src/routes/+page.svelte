@@ -6,7 +6,7 @@
 	import InstallApp from '$lib/components/InstallApp.svelte';
 </script>
 
-<div class="flex flex-col space-y-4 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-60">
+<div class="flex flex-col space-y-4 mx-auto px-4 sm:px-12 max-w-6xl">
 	<Header />
 	<Hero />
 	<Features />
