@@ -12,7 +12,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-clock text-3xl text-green-500" />
+					<i class="fas fa-clock text-3xl text-primary" />
 				</div>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-chart-bar text-3xl text-green-500" />
+					<i class="fas fa-chart-bar text-3xl text-primary" />
 				</div>
 			</div>
 		</div>
@@ -40,7 +40,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-phone text-3xl text-green-500" />
+					<i class="fas fa-phone text-3xl text-primary" />
 				</div>
 			</div>
 		</div>

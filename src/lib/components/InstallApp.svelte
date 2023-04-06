@@ -6,7 +6,7 @@
 	>
         <div class="bg-orange-500 text-center text-white font-bold text-xs rounded-sm inline-block p-1">Updated</div>
 		<h1 class="text-3xl text-center md:text-left md:text-4xl lg:text-6xl font-black text-white">
-			Install all new Swapuz <span class="text-green-600">app</span>
+			Install all new Swapuz <span class="text-primary">app</span>
 		</h1>
 		<h3 class="text-md text-center md:text-justify md:text-lg lg:text-xl text-zinc-300 font-normal pb-6">
 			Safely, anonymously and fast crypto <br />

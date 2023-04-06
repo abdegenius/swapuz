@@ -6,7 +6,7 @@
 		class="max-w-4xl w-full bg-zinc-800/50 flex justify-center items-center lg:justify-between lg:items-stretch rounded-xl mx-auto"
 	>
 		<div
-			class="relative rounded-l-xl hidden lg:flex lg:flex-col lg:space-y-6 bg-green-500 w-full lg:w-2/5"
+			class="relative rounded-l-xl hidden lg:flex lg:flex-col lg:space-y-6 bg-primary w-full lg:w-2/5"
 		>
 			<div class="mt-12 px-8">
 				<h1 class="text-5xl font-black text-zinc-900 mb-4">Login an account</h1>
@@ -23,11 +23,11 @@
 		>
 			<div class="justify-between flex items-center space-x-24 md:space-x-32 py-6">
 				<a href="signup"  class="text-lg font-black text-zinc-600 pb-4 text-center inline-flex">Sign up</a>
-				<a href="login"  class="text-lg font-black text-green-500 pb-4 border-b-4 border-green-500 text-center inline-flex">Sign in</a>
+				<a href="login"  class="text-lg font-black text-primary pb-4 border-b-4 border-primary text-center inline-flex">Sign in</a>
 			</div>
 			<form class="w-full flex flex-col space-y-4 justify-start px-4">
 				<div
-					class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-500 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+					class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-primary hover:border-primary focus:text-primary hover:text-primary"
 				>
 					<div class="w-4 p-4">
 						<i class="fal fa-at text-2xl" />
@@ -39,7 +39,7 @@
 					/>
 				</div>
 				<div
-					class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-500 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+					class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-primary hover:border-primary focus:text-primary hover:text-primary"
 				>
 					<div class="w-4 p-4">
 						<i class="fal fa-lock text-2xl" />
@@ -52,11 +52,11 @@
 				</div>
 				<div class="pt-8 pb-4">
 					<button
-						class="w-full py-5 bg-green-500 text-center text-md font-bold text-zinc-800 rounded-xl"
+						class="w-full py-5 bg-primary text-center text-md font-bold text-zinc-800 rounded-xl"
 						>Sign In</button
 					>
 				</div>
-				<p class="text-center font-bold text-lg text-green-600">
+				<p class="text-center font-bold text-lg text-primary">
 					<a href="reset-password">Forgot Password?</a>
 				</p>
 			</form>

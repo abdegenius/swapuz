@@ -10,7 +10,7 @@
 		<h1
 			class="text-4xl text-center lg:text-left  xl:text-6xl font-black text-white"
 		>
-			Who <span class="text-white lg:text-green-600">we</span> are?
+			Who <span class="text-white lg:text-primary">we</span> are?
 		</h1>
 		<h3
 			class="text-sm text-center lg:text-justify text-zinc-300 font-normal leading-[1.5rem]"
@@ -49,7 +49,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-clock text-3xl text-green-500" />
+					<i class="fas fa-clock text-3xl text-primary" />
 				</div>
 			</div>
 		</div>
@@ -63,7 +63,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-chart-bar text-3xl text-green-500" />
+					<i class="fas fa-chart-bar text-3xl text-primary" />
 				</div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 			</div>
 			<div class="flex justify-end items-end flex-col space-y-3 w-1/4">
 				<div>
-					<i class="fas fa-phone text-3xl text-green-500" />
+					<i class="fas fa-phone text-3xl text-primary" />
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@
 			class="bg-zinc-900/90 py-4 px-8 md:px-24 lg:px-0 w-full lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start"
 		>
 			<h1 class="text-4xl text-center lg:text-left lg:text-6xl font-black text-white mb-4">
-				We are <span class="lg:text-green-600">technologies</span>
+				We are <span class="lg:text-primary">technologies</span>
 			</h1>
 			<h3 class="text-sm text-center lg:text-left lg:text-md text-zinc-300 font-normal leading-[1.5rem]">
 				Our team was the first on the market to develop and implement unique multi-channel exchange
@@ -116,7 +116,7 @@
 			class="bg-zinc-900/90 py-4 px-8 md:px-24 lg:px-0 w-full lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start"
 		>
 			<h1 class="text-4xl text-center lg:text-left lg:text-6xl font-black text-white mb-4">
-				We are <span class="lg:text-green-600">safety</span>
+				We are <span class="lg:text-primary">safety</span>
 			</h1>
 			<h3 class="text-sm text-center lg:text-left lg:text-md text-zinc-300 font-normal leading-[1.5rem]">
 				Swapuz is half a DeFi project and half a custodial solution, so we strive to comply with all
@@ -133,7 +133,7 @@
 			class="bg-zinc-900/90 py-4 px-8 md:px-24 lg:px-0 w-full lg:w-1/2 flex flex-col justify-center lg:justify-start items-center lg:items-start"
 		>
 			<h1 class="text-4xl text-center lg:text-left lg:text-6xl font-black text-white mb-4">
-				We are <span class="lg:text-green-600">stability</span>
+				We are <span class="lg:text-primary">stability</span>
 			</h1>
 			<h3 class="text-sm text-center lg:text-left lg:text-md text-zinc-300 font-normal leading-[1.5rem]">
 				Swapuz is half a DeFi project and half a custodial solution, so we strive to comply with all

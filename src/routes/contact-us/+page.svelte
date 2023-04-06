@@ -6,7 +6,7 @@
 	<div class="max-w-lg w-full mx-8">
 		<form class="bg-zinc-800 rounded-xl flex flex-col space-y-2 justify-start py-6 px-4">
 			<div
-				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-700 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-700 hover:border-primary focus:text-primary hover:text-primary"
 			>
 				<div class="w-4 p-4">
 					<i class="fal fa-list text-2xl" />
@@ -18,7 +18,7 @@
 				</select>
 			</div>
 			<div
-				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-500 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-primary hover:border-primary focus:text-primary hover:text-primary"
 			>
 				<div class="w-4 p-4">
 					<i class="fal fa-at text-2xl" />
@@ -30,7 +30,7 @@
 				/>
 			</div>
 			<div
-				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-500 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-primary hover:border-primary focus:text-primary hover:text-primary"
 			>
 				<div class="w-4 p-4">
 					<i class="fal fa-refresh text-2xl" />
@@ -42,7 +42,7 @@
 				/>
 			</div>
 			<div
-				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-green-500 hover:border-green-500 focus:text-green-500 hover:text-green-500"
+				class="w-full flex flex-row space-x-2 bg-zinc-700/50 rounded-xl text-zinc-400 border-2 border-transparent focus:border-primary hover:border-primary focus:text-primary hover:text-primary"
 			>
 				<textarea
 					rows="6"
@@ -51,7 +51,7 @@
 				/>
 			</div>
 			<div class="text-left text-xs font-normal py-6 text-zinc-500">* Required fields</div>
-			<button class="w-full p-5 bg-green-500 text-center text-md font-bold text-zinc-800 rounded-xl"
+			<button class="w-full p-5 bg-primary text-center text-md font-bold text-zinc-800 rounded-xl"
 				>Send</button
 			>
 		</form>
@@ -62,19 +62,19 @@
 
 		<div class="w-full flex justify-between items-center space-x-1">
 			<div
-				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-green-600 font-normal"
+				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-primary font-normal"
 			>
 				<div><i class="fa fa-envelope text-4xl" /></div>
 				<div class="text-[12px] hidden lg:block">support@swapuz.com</div>
 			</div>
 			<div
-				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-green-600 font-normal"
+				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-primary font-normal"
 			>
 				<div><i class="fab fa-telegram text-4xl" /></div>
 				<div class="text-[12px] hidden lg:block">@supportswapuz</div>
 			</div>
 			<div
-				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-green-600 font-normal"
+				class="bg-zinc-800 py-2 w-1/3 mx-auto flex flex-col justify-center items-center space-y-2 rounded-sm text-primary font-normal"
 			>
 				<div><i class="fab fa-discord text-4xl" /></div>
 				<div class="text-[12px] hidden lg:block">https://discord.gg/swapuz</div>
